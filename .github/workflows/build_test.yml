@@ -44,8 +44,7 @@ jobs:
         aws_secret_key: ${{ secrets.AWS_SECRET_ACCESS_KEY }}
         application_name: django
         environment_name: Django-env
-        version_label: 1234
+        version_label: 123499
         region: "us-west-1"
         deployment_package: deploy.zip
-        use_existing_version_if_available: true
 
